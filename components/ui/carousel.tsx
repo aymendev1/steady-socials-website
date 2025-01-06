@@ -7,51 +7,51 @@ type collectionType = { name: string; type: string; images: string[] };
 const carousel: React.FC = ({}) => {
   const data: collectionType[] = [
     {
-      name: "MakeMeBio", // Collection Name
-      type: "skincare",
+      name: "FaceCOllection", // Collection Name
+      type: "faceCollection",
       images: [
         // Image collection
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0123-1-1024x928.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0117-996x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0116.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0103-846x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0108-1024x833.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0083-1-1024x911.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0064-2-683x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0077-807x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0111-235x300.jpg",
+        "https://images.unsplash.com/photo-1718963927746-f9befcea399a",
+        "https://images.unsplash.com/photo-1649255917534-5ca5c56fca06",
+        "https://images.unsplash.com/photo-1691155056059-82a814c79240",
+        "https://images.unsplash.com/photo-1691154928997-5d839847e4e7",
+        "https://images.unsplash.com/photo-1718963892270-04300c864522",
+        "https://plus.unsplash.com/premium_photo-1668485968642-30e3d15e9b9c",
+        "https://images.unsplash.com/photo-1718963927777-91a3e65cef45",
+        "https://images.unsplash.com/photo-1671275425467-8b24b89d2794",
+        "https://images.unsplash.com/photo-1654512697681-8434b50096dd",
       ],
     },
     {
-      name: "Sincere Sally", // Collection Name
+      name: "CartierJewelry", // Collection Name
       type: "jewelry", // Type
       images: [
         // Image collection
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-7442-683x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-0875-682x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-4764-1-846x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-9927-220x300.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-0705-208x300.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-6638-300x234.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-1639-222x300.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-2775-683x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-6968-683x1024.jpg",
+        "https://images.unsplash.com/photo-1558882268-15aa056d885f",
+        "https://images.unsplash.com/photo-1601821765780-754fa98637c1",
+        "https://images.unsplash.com/photo-1600721391776-b5cd0e0048f9",
+        "https://images.unsplash.com/photo-1617038220319-276d3cfab638",
+        "https://images.unsplash.com/photo-1525256074812-2f0a984bafad",
+        "https://images.unsplash.com/photo-1731406322264-dac59f83828b",
+        "https://images.unsplash.com/photo-1698259947580-90ffe913b711",
+        "https://images.unsplash.com/photo-1617038220319-276d3cfab638",
+        "https://images.unsplash.com/photo-1601821765780-754fa98637c1?",
       ],
     },
     {
-      name: "Swegmark", // Collection Name
+      name: "GymShark", // Collection Name
       type: "fashion", // Type
       images: [
         // Image collection
-        "http://steadysocial.com/wp-content/uploads/2024/06/IMG_5379-815x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/06/IMG_5377-741x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/06/IMG_5378-1024x727.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/joakimhall240602_272-1024x783.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/joakimhall240602_136-300x198.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/joakimhall240602_283-1024x790.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/joakimhall240602_422-205x300.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/DSC_1246-880x1024.jpg",
-        "http://steadysocial.com/wp-content/uploads/2024/07/joakimhall240602_18-735x1024.jpg",
+        "https://images.unsplash.com/photo-1551656274-05e6d217f121",
+        "https://images.unsplash.com/photo-1584863431255-3997371dcc01",
+        "https://images.unsplash.com/photo-1584863371502-048abf845b07",
+        "https://images.unsplash.com/photo-1584464457692-54516d705fe0",
+        "https://images.unsplash.com/photo-1609899517237-77d357b047cf",
+        "https://images.unsplash.com/photo-1609899537878-88d5ba429bdb",
+        "https://images.unsplash.com/photo-1545346315-f4c47e3e1b55",
+        "https://images.unsplash.com/photo-1606889464198-fcb18894cf50",
+        "https://images.unsplash.com/photo-1628869503963-6ce8de674c58",
       ],
     },
   ];
