@@ -12,7 +12,7 @@ const cardMeteors: React.FC<cardMeteorsProps> = ({ user, review }) => {
     <div className=" relative w-[200px] lg:w-[400px]">
       <div className="absolute inset-0 h-full w-full  transform scale-[0.80]  rounded-full blur-3xl" />
       <div className="relative shadow-xl bg-zinc-950 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-center">
-        <p className="font-normal text-sm md:text-base text-slate-300 mb-4 relative z-50 text-justify">
+        <p className="font-normal text-xs md:text-sm text-slate-300 mb-4 relative z-50 text-center">
           {review}
         </p>
         <div className="flex flex-col gap-2 items-center">

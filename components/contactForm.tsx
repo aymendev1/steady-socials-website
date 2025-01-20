@@ -12,7 +12,7 @@ const contactForm: React.FC = () => {
   return (
     <div className="max-w-md w-full mx-auto  rounded-2xl border-zinc-500p-4 p-8 shadow-input bg-zinc-950">
       <h2 className="font-bold text-xl text-neutral-200">Write a message</h2>
-      <p className="text-sm max-w-sm mt-2 text-neutral-300">
+      <p className="text-xs max-w-sm mt-2 text-neutral-300">
         If you&apos;re interested in our services, feel free to reach out using
         the form below. We&apos;re here to bring your vision to life.
       </p>

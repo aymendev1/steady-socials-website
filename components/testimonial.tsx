@@ -13,7 +13,7 @@ const Testimonial: React.FC = () => {
         "SteadySocial helped us create stunning product visuals that truly showcase our brand. The team was professional and delivered exactly what we needed.",
       user: {
         avatar:
-          "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-2804-279x300.jpg",
+          "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80",
         name: "Jessica L.",
       },
     },
@@ -23,7 +23,7 @@ const Testimonial: React.FC = () => {
       user: {
         avatar:
           "http://steadysocial.com/wp-content/uploads/2024/05/Tezza-3874-200x300.jpg",
-        name: "David R.",
+        name: "Laura R.",
       },
     },
     {
@@ -31,8 +31,8 @@ const Testimonial: React.FC = () => {
         "The photography and content creation was top-notch. Their attention to detail really stands out, and they understood our brand vision well.",
       user: {
         avatar:
-          "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0062-200x300.jpg",
-        name: "Laura P.",
+          "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=50",
+        name: "David P.",
       },
     },
     {
@@ -40,7 +40,7 @@ const Testimonial: React.FC = () => {
         "Great experience working with SteadySocial. The visuals they produced were exactly what we were looking for. Highly recommend their service!",
       user: {
         avatar:
-          "http://steadysocial.com/wp-content/uploads/2024/07/IMG_0086-819x1024.jpg",
+          "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80",
         name: "Mark S.",
       },
     },
@@ -49,7 +49,7 @@ const Testimonial: React.FC = () => {
   return (
     <section
       id="testimonial"
-      className="max-h-screen h-fit w-full flex flex-col gap-10 justify-center items-center align-center px-10 md:px-20 lg:px-20 xl:px-30 2xl:px-40 py-20 bg-zinc-950"
+      className="max-h-screen h-fit w-full flex flex-col gap-10 justify-center items-center align-center px-10 md:px-20 lg:px-20 xl:px-30 2xl:px-40 py-20 bg-black"
     >
       <motion.span
         initial={{ translateY: -50 }}
@@ -65,7 +65,7 @@ const Testimonial: React.FC = () => {
         </span>
       </motion.span>
 
-      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-zinc-950 md:shadow-xl">
+      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-black md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:30s]">
           {reviews.map((review: review, i: number) => {
             return <CardMeteors key={i} {...review} />;

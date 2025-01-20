@@ -20,12 +20,13 @@ const Navbar: React.FC = () => {
         className="flex items-center justify-between p-6 lg:px-8 bg-transparent"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="#" className="-m-1.5 p-1.5 hidden lg:block">
             <span className="sr-only">Steady Socials</span>
             <Image
               src="https://i.ibb.co/jzWBtSz/myLogo.pnge"
               width={150}
               height={10}
+
               alt="Aymendev1 Logo"
             />
           </a>

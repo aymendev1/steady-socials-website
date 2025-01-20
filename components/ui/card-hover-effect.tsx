@@ -52,11 +52,11 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <item.Icon className="size-12 text-zinc-100" />
+            <item.Icon className="size-8 text-zinc-100" />
             <CardTitle className={`${great_Vibes.className} text-3xl`}>
               {item.title}
             </CardTitle>
-            <CardDescription className="font-light text-sm leading-loose">
+            <CardDescription className="font-light text-xs leading-loose">
               {item.description}
             </CardDescription>
           </Card>

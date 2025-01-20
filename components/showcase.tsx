@@ -11,13 +11,13 @@ const Showcase: React.FC = () => {
   return (
     <section
       id="gallery"
-      className="min-h-screen w-full flex flex-col gap-5 justify-center items-center align-center px-10 md:px-20  lg:px-20 xl:px-30 2xl:px-40 py-20 bg-zinc-950"
+      className="min-h-screen lg:h-screen w-full flex flex-col gap-5 justify-center items-center align-center px-10 md:px-20 lg:px-20 xl:px-30 2xl:px-40 py-20 lg:py-14 bg-zinc-950"
     >
       <motion.span
         initial={{ translateY: -50 }}
         whileInView={{ translateY: 0 }}
         transition={{ delay: 0.1, duration: 0.5 }}
-        className={`${great_Vibes.className} text-5xl lg:text-6xl 2xl:text-7xl block text-center`} /* Initial text-6xl */
+        className={`${great_Vibes.className} text-5xl lg:text-6xl block text-center`} /* Initial text-6xl */
       >
         Our Work Speaks for Itself
       </motion.span>

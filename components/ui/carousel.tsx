@@ -73,7 +73,7 @@ const carousel: React.FC = ({}) => {
                 width={140}
                 height={250}
                 quality={100}
-                className="object-cover "
+                className="object-cover object-center"
                 alt={collection.name}
                 key={i}
               />

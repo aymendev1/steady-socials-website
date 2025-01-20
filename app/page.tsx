@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="flex flex-col row-start-2 items-center text-white min-h-screen">
+    <main className="flex flex-col row-start-2 items-center text-white ">
       <Navbar />
       <HeroSection />
       <WhyUS />

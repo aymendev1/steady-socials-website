@@ -20,7 +20,7 @@ const Services: React.FC = () => {
       description:
         "Create captivating advertisements that elevate your brand. Our skilled team delivers impactful visuals that engage audiences and convey your message effectively.",
       initialImg:
-        "http://steadysocial.com/wp-content/uploads/2024/02/iStock-1153438285-1-768x512.jpg",
+        "https://images.unsplash.com/photo-1544489603-348771b16566",
       onHoverImg:
         "http://steadysocial.com/wp-content/uploads/2024/02/iStock-1312113135-2-683x1024.jpg",
     },
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
       description:
         "Boost engagement with authentic UGC content. We craft relatable visuals that connect with your audience, building trust and enhancing brand loyalty.",
       initialImg:
-        "http://steadysocial.com/wp-content/uploads/2024/02/pexels-george-milton-6953836-2048x1365.jpg",
+        "https://images.unsplash.com/photo-1599249681041-8692a1080a8c",
       onHoverImg:
         "https://images.unsplash.com/photo-1664277497095-424e085175e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
