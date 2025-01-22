@@ -4,7 +4,8 @@ This project is a web application built with [Next.js](https://nextjs.org/), ini
 
 ## Preview:
 
-- View DEMO [DEMO](https://steadysocialdemo.netlify.app/)
+- View [DEMO](https://steadysocialdemo.netlify.app/)
+  ![Social Preview](https://github.com/aymendev1/steady-socials-website/public/screenshot.png)
 
 ## Getting Started
 
@@ -88,4 +89,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact [aymendev1](https://aymendev1.com/utm_source=github).
+For any questions or feedback, please contact [aymendev1](https://aymendev1.com/?utm_source=github).
