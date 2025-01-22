@@ -47,21 +47,12 @@ export default function Example() {
       <div className="max-w-7xl">
         <div className="mx-auto w-fit lg:mx-0">
           <h2
-            className={`text-5xl font-semibold tracking-tight text-white text-center lg:text-start md:text-5xl lg:text-6xl 2xl:text-7xl ${great_Vibes.className} `}
+            className={`text-5xl font-semibold tracking-tight text-white text-center lg:text-start md:text-5xl lg:text-6xl  ${great_Vibes.className} `}
           >
             Why we&apos;re different ?
           </h2>
           <p className="mt-8 text-white tracking-wide font-light text-sm text-justify md:text-base leading-loose ">
-            At SteadySocial, we bridge the gap between social media and
-            professional visual content with a comprehensive approach to digital
-            marketing. Our services span social media management, content
-            creation, and AI-enhanced design, offering tailored solutions for
-            every business need. By leveraging advanced AI, we provide previews
-            of marketing materials, enabling real-time adjustments to align with
-            your vision while enhancing efficiency. Our team also sources
-            skilled models and photographers to showcase your products in their
-            best light. The result? High-quality, industry-leading content ready
-            for seamless integration into your social platforms or website.
+          At SteadySocial, we connect social media expertise with professional visual content to elevate your brand. Our tailored services include social media management, content creation, and AI-enhanced design. With advanced AI previews, you can fine-tune marketing materials in real-time, ensuring they align with your vision. From sourcing skilled models and photographers to creating high-quality content, we deliver industry-leading results ready for your platforms or website.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

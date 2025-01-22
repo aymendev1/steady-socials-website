@@ -32,19 +32,19 @@ const whyUS: React.FC = () => {
   return (
     <section
       id="why-us"
-      className="h-fit w-full flex flex-col lg:grid lg:grid-cols-3 xl:grid-cols-4 gap-3 justify-center items-center align-center px-10 md:px-20  lg:px-20 xl:px-30 2xl:px-40 py-20 bg-zinc-950"
+      className="h-fit w-full flex flex-col lg:grid lg:grid-cols-3 xl:grid-cols-4 gap-3 justify-center items-center align-center px-10 md:px-20  lg:px-20 xl:px-30 2xl:px-40 py-20 bg-black"
     >
       <motion.span
         initial={{ translateY: -50 }}
         whileInView={{ translateY: 0 }}
         transition={{ delay: 0.1, duration: 0.5 }}
-        className="font-light text-xl md:text-2xl lg:text-3xl leading-loose text-center self-center lg:row-span-2 xl-row-span-1" /* Initial text-3xl */
+        className="font-normal text-3xl md:text-4xl   leading-loose text-center self-center lg:row-span-2 xl-row-span-1" /* Initial text-3xl */
       >
-        Your Brand, Our Mission
+        Your Brand,
         <span
-          className={`${great_Vibes.className} text-5xl xl:text-6xl block`} /* Initial text-6xl */
+          className={`${great_Vibes.className}  text-5xl md:text-6xl   block`} /* Initial text-6xl */
         >
-          Discover how ?
+         Our Mission
         </span>
       </motion.span>
 

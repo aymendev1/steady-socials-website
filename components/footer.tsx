@@ -1,19 +1,12 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
     <footer className="px-40 w-full py-6 bg-zinc-950">
       <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
         <div className="xl:flex xl:items-center xl:justify-start">
-          <Image
-            className="w-auto mx-auto h-7"
-            height={200}
-            width={200}
-            src="https://i.ibb.co/jzWBtSz/myLogo.png"
-            alt=""
-          />
+     
 
           <p className="mt-5 text-sm text-white xl:ml-6 xl:mt-0">
             © Copyright 2024 SteadySocials
@@ -21,65 +14,6 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
-          <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
-            <li>
-              <a
-                href="#"
-                title=""
-                className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-              >
-                {" "}
-                About{" "}
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-              >
-                {" "}
-                Services{" "}
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-              >
-                {" "}
-                Privacy Policy{" "}
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-              >
-                {" "}
-                Terms & Conditions{" "}
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-              >
-                {" "}
-                Support{" "}
-              </a>
-            </li>
-          </ul>
-
-          <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
-
           <ul className="flex items-center justify-center space-x-8 xl:justify-end">
             <li>
               <a
