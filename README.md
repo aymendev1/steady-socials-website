@@ -5,7 +5,8 @@ This project is a web application built with [Next.js](https://nextjs.org/), ini
 ## Preview:
 
 - View [DEMO](https://steadysocialdemo.netlify.app/)
-  ![Social Preview](https://github.com/aymendev1/steady-socials-website/public/screenshot.png)
+
+  ![Social Preview](https://github.com/aymendev1/steady-socials-website/raw/main/public/screenshot.png)
 
 ## Getting Started
 
